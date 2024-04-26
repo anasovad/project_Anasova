@@ -1,0 +1,26 @@
+a.button{
+    min-width: 100px; /*Минимальная ширина кнопки*/
+    text-align: center; /*Выравнивание текста по центру*/
+    display: inline-block; /*Для размещения кнопок с новой строки в зависимости от ширины экрана*/
+    padding: 20px;
+    background-color: orange;
+    text-decoration: none; /*Убрать подчеркивание*/
+    border-radius: 5px; /*Скругление углов*/
+    color: white;
+    margin: 20px;
+}
+    
+a.button:hover{
+    background-color: red;
+    box-shadow: 0 2px 4px black; /*Тень 0пикс сверху, 2пикс, слева 4 пикс снизу */
+}
+
+a.button:active{
+    background-color: purple;
+}
+
+form{
+    max-width: 40%;
+    margin-inline: auto; /*Отступы внутри??*/
+    
+}
