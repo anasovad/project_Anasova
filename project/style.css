@@ -1,26 +1,180 @@
-a.button{
-    min-width: 100px; /*Минимальная ширина кнопки*/
-    text-align: center; /*Выравнивание текста по центру*/
-    display: inline-block; /*Для размещения кнопок с новой строки в зависимости от ширины экрана*/
-    padding: 20px;
-    background-color: orange;
-    text-decoration: none; /*Убрать подчеркивание*/
-    border-radius: 5px; /*Скругление углов*/
+a.button {
+    max-width: 166px;
+    /*Минимальная ширина кнопки*/
+    text-align: center;
+    /*Выравнивание текста по центру*/
+    display: inline-block;
+    /*Для размещения кнопок с новой строки в зависимости от ширины экрана*/
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-decoration: none;
+    /*Убрать подчеркивание*/
+    border-radius: 100px;
+    /*Скругление углов*/
+    color: #282828;
+    border: 2px solid #282828;
+    margin: 30px;
+    font-family: "MontserratRegular";
+    position: relative;
+    left: 35%;
+    transform: translate(-50%, 0);
+}
+
+a.button:hover {
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid #0000CB;
+    color: #0000CB;
+}
+
+a.button:active {
+    background: #0000CB;
+    border-radius: 100px;
+    border: 2px solid #0000CB;
     color: white;
-    margin: 20px;
-}
-    
-a.button:hover{
-    background-color: red;
-    box-shadow: 0 2px 4px black; /*Тень 0пикс сверху, 2пикс, слева 4 пикс снизу */
 }
 
-a.button:active{
-    background-color: purple;
-}
-
-form{
+form {
     max-width: 40%;
-    margin-inline: auto; /*Отступы внутри??*/
-    
+    margin-inline: auto;
+    /*Отступы внутри??*/
+
 }
+
+h1 {
+    font-family: "MontserratBold";
+    width: 900px;
+    color: #282828;
+    font-size: 70px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-bottom: 0px;
+}
+
+.заголовок {
+    padding: 0px;
+    left: 246px;
+    top: 90px;
+    position: relative;
+    margin: 30px;
+}
+
+.обомне {
+    color: #ffffff;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 100px;
+    font-family: "MontserratBold";
+    line-height: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #282828;
+   
+    outline: none;
+}
+
+.обомне2 {
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 100px;
+    font-family: "MontserratBold";
+    line-height: auto;
+    color: #282828;
+    top: 15px;
+    left: 15px;
+    position: absolute;
+}
+
+.lighth1 {
+    font-family: "MontserratBold";
+    width: 900px;
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-bottom: 0px;
+    position: relative;
+    top: 425px;
+    left: 50px;
+}
+
+h2 {
+    font-family: "MontserratSemiBold";
+    width: 900px;
+    color: #282828;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-top: 0px;
+}
+
+.lighth2 {
+    font-family: "MontserratSemiBold";
+    width: 900px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-top: 0px;
+    position: relative;
+    top: 425px;
+    left: 50px;
+}
+
+p {
+    font-family: "MontserratRegular";
+    width: 900px;
+    color: #282828;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 1000px;
+    height: 608px;
+    background-image: url("images/image1.png");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -70px;
+}
+
+@font-face {
+    font-family: "MontserratRegular";
+    src: url("fonts/Montserrat-Regular.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MontserratSemiBold";
+    src: url("fonts/Montserrat-SemiBold.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("fonts/Montserrat-Bold.woff2") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+
+}
+@supports (-webkit-text-stroke: 1px blue)
