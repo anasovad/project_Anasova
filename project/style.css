@@ -14,13 +14,52 @@ a.button {
     /*Убрать подчеркивание*/
     border-radius: 100px;
     /*Скругление углов*/
-    color: #282828;
-    border: 2px solid #282828;
-    margin: 30px;
+    color: #151313;
+    border: 2px solid #151313;
     font-family: "MontserratRegular";
-    position: relative;
-    left: 35%;
-    transform: translate(-50%, 0);
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+body{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.darkbutton{
+    max-width: 166px;
+    /*Минимальная ширина кнопки*/
+    text-align: center;
+    /*Выравнивание текста по центру*/
+    display: inline-block;
+    /*Для размещения кнопок с новой строки в зависимости от ширины экрана*/
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #151313;
+    text-decoration: none;
+    /*Убрать подчеркивание*/
+    border-radius: 100px;
+    /*Скругление углов*/
+    color: white;
+    border: 2px solid white;
+    font-family: "MontserratRegular";
+    margin: 15px;
+}
+
+.darkbutton:hover{
+    background-color: #151313;
+    border-radius: 100px;
+    border: 2px solid rgb(202, 202, 202);
+    color: rgb(202, 202, 202);
+}
+.darkbutton:active{
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid white;
+    color: #151313;
 }
 
 a.button:hover {
@@ -37,17 +76,34 @@ a.button:active {
     color: white;
 }
 
+.conteinerbutton {
+    width: 100%;
+    text-align: center;
+}
+
+.conteinerbutton1 {
+    width: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: left;
+}
+
+.conteinerbutt {
+    position: relative;
+    top: 390px;
+    left: 700px;
+}
+
 form {
     max-width: 40%;
     margin-inline: auto;
-    /*Отступы внутри??*/
-
 }
 
 h1 {
     font-family: "MontserratBold";
     width: 900px;
-    color: #282828;
+    color: #151313;
     font-size: 70px;
     text-align: left;
     vertical-align: text-top;
@@ -55,39 +111,8 @@ h1 {
     border-style: hidden;
     outline: none;
     margin-bottom: 0px;
-}
-
-.заголовок {
-    padding: 0px;
-    left: 246px;
-    top: 90px;
-    position: relative;
-    margin: 30px;
-}
-
-.обомне {
-    color: #ffffff;
-    text-align: left;
-    vertical-align: text-top;
-    font-size: 100px;
-    font-family: "MontserratBold";
-    line-height: auto;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #282828;
-   
-    outline: none;
-}
-
-.обомне2 {
-    text-align: left;
-    vertical-align: text-top;
-    font-size: 100px;
-    font-family: "MontserratBold";
-    line-height: auto;
-    color: #282828;
-    top: 15px;
-    left: 15px;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .lighth1 {
@@ -103,13 +128,25 @@ h1 {
     margin-bottom: 0px;
     position: relative;
     top: 425px;
-    left: 50px;
+}
+
+.lighth11 {
+    font-family: "MontserratBold";
+    width: 900px;
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-bottom: 0px;
 }
 
 h2 {
     font-family: "MontserratSemiBold";
     width: 900px;
-    color: #282828;
+    color: #151313;
     font-size: 30px;
     text-align: left;
     vertical-align: text-top;
@@ -117,6 +154,8 @@ h2 {
     border-style: hidden;
     outline: none;
     margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .lighth2 {
@@ -132,27 +171,105 @@ h2 {
     margin-top: 0px;
     position: relative;
     top: 425px;
-    left: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p {
+h3{
+    font-family: "MontserratSemiBold";
+    width: 900px;
+    color: #151313;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.lighthp3{
+    font-family: "MontserratSemiBold";
+    width: 900px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+p{
     font-family: "MontserratRegular";
     width: 900px;
-    color: #282828;
+    color: #151313;
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container {
+
+.lightp {
+    font-family: "MontserratRegular";
+    width: 900px;
+    color: white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    font-family: "MontserratRegular";
+    width: 900px;
+    color: #151313;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 105%;
+}
+
+.container{
     width: 1000px;
     height: 608px;
     background-image: url("images/image1.png");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: -20px;
     position: relative;
     top: -70px;
+}
+
+.containerrentangle{
+    background-color: #151313;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.containerhr{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 576px;
+    height: 86px;
+    background-image: url("images/skills.png");
+    background-size: cover;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 @font-face {
@@ -177,4 +294,3 @@ p {
     font-weight: normal;
 
 }
-@supports (-webkit-text-stroke: 1px blue)
