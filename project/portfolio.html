@@ -5,60 +5,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Анасова Д.М.</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header> <!--Шапка сайта-->
-        <nav>
-            <a href="index.html">Обо мне</a>
-            <a href="skills.html">Навыки</a>
-            <a href="portfolio.html">Портфолио</a>
-        </nav>
-
-        <h1>Навыки</h1>
-
-
-
-        <main> <!--Основная информация-->
-            <section id="raster">
-                <h2>Растровая графика</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi quia in officiis totam sed
-                    praesentium non,
-                    delectus ipsum sequi dicta explicabo exercitationem, maxime, consequuntur rem qui porro ad.
-                    Voluptatum.</p>
-            </section>
-
-            <section id="vector">
-                <h2>Векторная графика</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi quia in officiis totam sed
-                    praesentium non,
-                    delectus ipsum sequi dicta explicabo exercitationem, maxime, consequuntur rem qui porro ad.
-                    Voluptatum.</p>
-            </section>
-
-            <section id="3d">
-                <h2>3д</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi quia in officiis totam sed
-                    praesentium non,
-                    delectus ipsum sequi dicta explicabo exercitationem, maxime, consequuntur rem qui porro ad.
-                    Voluptatum.</p>
-            </section>
-
-                <a href="#">Писать мне</a>
-
+        <div class="conteinerbutton">
+            <nav>
+                <a class="button" href="index.html">Обо мне</a>
+                <a class="button" href="skills.html">Навыки</a>
+                <a class="button" href="portfolio.html">Портфолио</a>
+            </nav>
+        </div>
     </header>
+    <main> <!--Основная информация-->
+        <h1>Портфолио</h1>
+        <section id="case1">
+            <div class="containerrentanglelight">
+                <h2>ITBCO.RU</h2>
+                <h3>О проекте</h3>
+                <p>
+                    Разработка дизайна сайта консалтинговой компании, включает дизайн интерфейса, верстку страниц,
+                    создание
+                    элементов
+                    UX/UI, адаптивный и отзывчивый дизайн для различных устройств, а также создание анимаций.
+                </p>
+                <p>
+                    Процесс работы над дизайн
+                    проектом для консалтинговой компании включает в себя этапы анализа задачи, работы над концепцией,
+                    создание макетов и
+                    прототипов, утверждение дизайна клиентом, внесение корректировок и окончательная передача готового
+                    продукта.
+                </p>
+                <div class="carousel-wrapper" style="height: 400px;">
+                    <span id="target-item-1"></span>
+                    <span id="target-item-2"></span>
+                    <span id="target-item-3"></span>
+                    <div class="carousel-item item-1">
+                        <img src="images/image1.jpg" alt="image1">
+                        <a class="arrow arrow-prev" href="#target-item-3"></a>
+                        <a class="arrow arrow-next" href="#target-item-2"></a>
+                    </div>
+                    <div class="carousel-item item-2">
+                        <img src="images/image2.jpg" alt="image2">
+                        <a class="arrow arrow-prev" href="#target-item-1"></a>
+                        <a class="arrow arrow-next" href="#target-item-3"></a>
+                    </div>
+                    <div class="carousel-item item-3">
+                        <img src="images/image3.jpg" alt="image3">
+                        <a class="arrow arrow-prev" href="#target-item-2"></a>
+                        <a class="arrow arrow-next" href="#target-item-1"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <style>
-        .border {
-            border: 1px solid black;
-        }
-    </style>
-    </section>
+        <section id="case2">
+            <div class="containerrentangle">
+                <h2 class="lighth22">RENT-ON.RU</h2>
+                <h3 class="lighthp3">О проекте</h3>
+                <p class="lightp">
+                    А рамках проекта были выполнены несколько ключевых задач:
+                </p>
+                <p class="lightp">
+                    – Разработка фирменного блока: создание уникального логотипа, цветовой палитры и других элементов,
+                    отражающих бренд компании и ее ценности.
+                </p>
+                <p class="lightp">
+                    – Создание питч презентации: разработка презентаций для встреч с партнерами и инвесторами.
+                </p>
+                <p class="lightp">
+                    – Создание дизайна для лендинга: разработка дизайна лендинга компании, дизайн интерфейса, создание
+                    элементов UX/UI.
+                </p>
+                <div class="carousel-wrapper2" style="height: 400px;">
+                    <span id="target-item-4"></span>
+                    <span id="target-item-5"></span>
+                    <span id="target-item-6"></span>
+                    <div class="carousel-item item-4 light">
+                        <img src="images/image4.jpg" alt="image4">
+                        <a class="arrow arrow-prev" href="#target-item-6"></a>
+                        <a class="arrow arrow-next" href="#target-item-5"></a>
+                    </div>
+                    <div class="carousel-item item-5 light">
+                        <img src="images/image5.jpg" alt="image5">
+                        <a class="arrow arrow-prev" href="#target-item-4"></a>
+                        <a class="arrow arrow-next" href="#target-item-6"></a>
+                    </div>
+                    <div class="carousel-item item-6 light">
+                        <img src="images/image6.jpg" alt="image6">
+                        <a class="arrow arrow-prev" href="#target-item-5"></a>
+                        <a class="arrow arrow-next" href="#target-item-4"></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="case3">
+            <div class="containerrentanglelight">
+                <h2>МАСЛЕННИКОВА</h2>
+                <h3>О проекте</h3>
+                <p>
+                    Учебная работа. Создание фирменного стиля для мастерицы из Белебея, которая создает вязанную одежду
+                    ручной работы для
+                    новорожденных
+                </p>
+                <div class="carousel-wrapper3" style="height: 400px;">
+                    <span id="target-item-7"></span>
+                    <span id="target-item-8"></span>
+                    <span id="target-item-9"></span>
+                    <div class="carousel-item item-7">
+                        <img src="images/image7.jpg" alt="image7">
+                        <a class="arrow arrow-prev" href="#target-item-9"></a>
+                        <a class="arrow arrow-next" href="#target-item-8"></a>
+                    </div>
+                    <div class="carousel-item item-8">
+                        <img src="images/image8.jpg" alt="image8">
+                        <a class="arrow arrow-prev" href="#target-item-7"></a>
+                        <a class="arrow arrow-next" href="#target-item-9"></a>
+                    </div>
+                    <div class="carousel-item item-9">
+                        <img src="images/image9.jpg" alt="image9">
+                        <a class="arrow arrow-prev" href="#target-item-8"></a>
+                        <a class="arrow arrow-next" href="#target-item-7"></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="conteinerbutton1">
+                <a class="button" href="feedback.html">Написать мне</a>
+            </div>
+        </section>
+
     </main>
 
     <footer> <!--Подвал сайта-->
-
+        <p>Анасова Д.М.</p>
     </footer>
+
 </body>
 
 </html>

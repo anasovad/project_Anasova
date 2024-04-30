@@ -18,7 +18,7 @@ a.button {
     border: 2px solid #151313;
     font-family: "MontserratRegular";
     margin: 15px;
-    margin-bottom: 50px;
+ 
 }
 
 body{
@@ -142,6 +142,18 @@ h1 {
     outline: none;
     margin-bottom: 0px;
 }
+.lighth22 {
+    font-family: "MontserratBold";
+    width: 900px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-bottom: 0px;
+}
 
 h2 {
     font-family: "MontserratSemiBold";
@@ -153,7 +165,7 @@ h2 {
     line-height: auto;
     border-style: hidden;
     outline: none;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -168,9 +180,24 @@ h2 {
     line-height: auto;
     border-style: hidden;
     outline: none;
-    margin-top: 0px;
+    margin-top: 20px;
     position: relative;
     top: 425px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lighth22 {
+    font-family: "MontserratSemiBold";
+    width: 900px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    margin-top: 0px;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
 }
@@ -179,7 +206,7 @@ h3{
     font-family: "MontserratSemiBold";
     width: 900px;
     color: #151313;
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
     vertical-align: text-top;
     line-height: auto;
@@ -200,7 +227,7 @@ h3{
     line-height: auto;
     border-style: hidden;
     outline: none;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;   
 }
@@ -212,6 +239,7 @@ p{
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 
 
@@ -235,6 +263,23 @@ ul{
     right: 105%;
 }
 
+ol{
+    font-family: "MontserratRegular";
+    width: 900px;
+    color: #151313;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.li {
+    margin-bottom: 1em; /* Расстояние снизу */
+   }
+
 .container{
     width: 1000px;
     height: 608px;
@@ -252,10 +297,20 @@ ul{
     background-size: cover;
     height: 100%;
     position: relative;
-    top: 50%;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.containerrentanglelight{
+    background-color: white;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 50px;
 }
 
 .containerhr{
@@ -270,6 +325,272 @@ ul{
     margin-left: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.table {
+	width: 900px;
+	margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+    font-family: "MontserratRegular";
+
+}
+.table th {
+	font-weight: bold;
+	padding: 10px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+    font-family: "MontserratBold";
+    font-size: 30px;
+    
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.carousel-wrapper {
+    position: relative;
+
+    .carousel-item {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 25px 50px;
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+  
+      
+      .arrow {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 50px;
+      height: 100%;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      background: url("images/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+  
+        &.arrow-prev {
+          left: 0;
+
+        }
+
+        &.arrow-next {
+          right: 0;
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+      }
+
+      &.light {
+        color: white;
+  
+        .arrow {
+          background: url("images/carousel-arrow-light.png") 50% 50% / 20px no-repeat;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .arrow, &.light .arrow {
+          background-size: 10px;
+          background-position: 10px 50%;
+        }
+      }
+    }
+  
+    [id^="target-item"] {
+      display: none;
+    }
+
+    .item-1 {
+      z-index: 2;
+      opacity: 1;
+    }
+  
+    *:target ~ .item-1 {
+      opacity: 0;
+    }
+  
+    #target-item-1:target ~ .item-1 {
+      opacity: 1;
+    }
+  
+    #target-item-2:target ~ .item-2, #target-item-3:target ~ .item-3 {
+      z-index: 3;
+      opacity: 1;
+    }
+  }
+.carousel-wrapper2 {
+    position: relative;
+
+    .carousel-item {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 25px 50px;
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+  
+      
+      .arrow {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 50px;
+      height: 100%;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      background: url("images/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+  
+        &.arrow-prev {
+          left: 0;
+
+        }
+
+        &.arrow-next {
+          right: 0;
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+      }
+
+      &.light {
+        color: white;
+  
+        .arrow {
+          background: url("images/carousel-arrow-light.png") 50% 50% / 20px no-repeat;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .arrow, &.light .arrow {
+          background-size: 10px;
+          background-position: 10px 50%;
+        }
+      }
+    }
+  
+    [id^="target-item"] {
+      display: none;
+    }
+
+    .item-4 {
+      z-index: 2;
+      opacity: 1;
+    }
+  
+    *:target ~ .item-4 {
+      opacity: 0;
+    }
+  
+    #target-item-4:target ~ .item-4 {
+      opacity: 1;
+    }
+  
+    #target-item-5:target ~ .item-5, #target-item-6:target ~ .item-6 {
+      z-index: 3;
+      opacity: 1;
+    }
+  }
+.carousel-wrapper3 {
+    position: relative;
+
+    .carousel-item {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 25px 50px;
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+  
+      
+      .arrow {
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 50px;
+      height: 100%;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      background: url("images/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+  
+        &.arrow-prev {
+          left: 0;
+
+        }
+
+        &.arrow-next {
+          right: 0;
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+      }
+
+      &.light {
+        color: white;
+  
+        .arrow {
+          background: url("images/carousel-arrow-light.png") 50% 50% / 20px no-repeat;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .arrow, &.light .arrow {
+          background-size: 10px;
+          background-position: 10px 50%;
+        }
+      }
+    }
+  
+    [id^="target-item"] {
+      display: none;
+    }
+
+    .item-7 {
+      z-index: 2;
+      opacity: 1;
+    }
+  
+    *:target ~ .item-7 {
+      opacity: 0;
+    }
+  
+    #target-item-7:target ~ .item-7 {
+      opacity: 1;
+    }
+  
+    #target-item-8:target ~ .item-8, #target-item-9:target ~ .item-9 {
+      z-index: 3;
+      opacity: 1;
+    }
+  }
+
+img{
+    width: 900px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    text-align: center;
 }
 
 @font-face {

@@ -5,93 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Анасова Д.М.</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header> <!--Шапка сайта-->
-        <nav>
-            <a href="index.html">Обо мне</a>
-            <a href="skills.html">Навыки</a>
-            <a href="portfolio.html">Портфолио</a>
-        </nav>
+        <div class="conteinerbutton">
+            <nav>
+                <a class="button" href="index.html">Обо мне</a>
+                <a class="button" href="skills.html">Навыки</a>
+                <a class="button" href="portfolio.html">Портфолио</a>
+            </nav>
+        </div>
+    </header>
+    <main> <!--Основная информация-->
+        <section id="skills">
+            <h1>Навыки</h1>
+            <h2>Графический дизайн</h2>
+            <ol>
+                <li class="li">Разработка логотипа и фирменного стиля: создание уникального логотипа, цветовой палитры, шрифтов и других
+                    элементов, отражающих бренд компании и ее ценности.</li>
+                <li class="li">Дизайн корпоративных материалов: разработка визиток, бланков, брошюр, буклетов и других печатных материалов,
+                    которые будут использоваться в рабочих процессах компании.</li>
+                <li class="li">Дизайн презентаций и отчетов: разработка презентаций для встреч с клиентами, партнерами, инвесторами, а также
+                    дизайн отчетов и презентаций с результатами работы.</li>
+                <li class="li">Графическое оформление рекламных материалов: создание дизайна для баннеров, рекламных материалов, листовок,
+                    программ и другой рекламной продукции для конференций и мероприятий, проводимых компанией.</li>
+            </ol>
+            <h2>Веб дизайн</h2>
+            <ol>
+                <li class="li">Создание веб-дизайна: разработка дизайна сайта, дизайн интерфейса.</li>
+                <li class="li">HTML верстка: верстка страниц, создание элементов UX/UI, адаптивный и отзывчивый дизайн для различных устройств.</li>
+            </ol>
+            <h2>Иллюстрация</h2>
+            <ol>
+                <li class="li">Рисование: владение техниками рисования как традиционными, так и цифровыми, понимание пропорций, перспективы,
+                    светотени и композиции.</li>
+                <li class="li">Цветовое восприятие: понимание и использование цветовых комбинаций, гармонии и контраста для создания эффектных
+                    иллюстраций.</li>
+                <li class="li">Создание персонажей: способность разрабатывать уникальных и выразительных персонажей с уникальным стилем и
+                    характером.</li>
+            </ol>
+        </section>
 
-        <h1>Навыки</h1>
-
-
-
-        <main> <!--Основная информация-->
-            <section id="raster">
-                <h2>Растровая графика</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi quia in officiis totam sed
-                    praesentium non,
-                    delectus ipsum sequi dicta explicabo exercitationem, maxime, consequuntur rem qui porro ad.
-                    Voluptatum.</p>
-            </section>
-
-            <section id="vector">
-                <h2>Векторная графика</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi quia in officiis totam sed
-                    praesentium non,
-                    delectus ipsum sequi dicta explicabo exercitationem, maxime, consequuntur rem qui porro ad.
-                    Voluptatum.</p>
-            </section>
-
-            <section id="3d">
-                <h2>3д</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit animi quia in officiis totam sed
-                    praesentium non,
-                    delectus ipsum sequi dicta explicabo exercitationem, maxime, consequuntur rem qui porro ad.
-                    Voluptatum.</p>
-            </section>
-
-            <section id="table">
-                <h2>Уровень навыка</h2>
-                <table class="border">
+        <section id="table">
+            <div class="containerrentangle">
+                <h2 class="lighth22">Уровень навыка</h2>
+                <table class="table">
                     <tr>
-                        <th class="border">№</th>
-                        <th class="border">Навыки работы с инструментами</th>
-                        <th class="border">Уровень владения</th>
+                        <th>№</th>
+                        <th>Навыки работы с инструментами</th>
+                        <th>Уровень владения</th>
                     </tr>
                     <tr>
-                        <td class="border">1</td>
-                        <td class="border">Работа с кистями</td>
-                        <td class="border">Средний</td>
+                        <td>1</td>
+                        <td>Работа с кистями</td>
+                        <td>Средний</td>
                     </tr>
                     <tr>
-                        <td class="border">2</td>
-                        <td class="border">Работа с цветом</td>
-                        <td class="border">Уверенный</td>
+                        <td>2</td>
+                        <td>Работа с цветом</td>
+                        <td>Уверенный</td>
                     </tr>
                     <tr>
-                        <td class="border">3</td>
-                        <td class="border">Работа в команде</td>
-                        <td class="border" class="border" rowspan="2">Профессионал</td>
+                        <td>3</td>
+                        <td>Работа в команде</td>
+                        <td rowspan="2">Профессионал</td>
                     </tr>
                     <tr>
-                        <td class="border">3</td>
-                        <td class="border">Работа c альфа-каналами</td>
+                        <td>3</td>
+                        <td>Работа c альфа-каналами</td>
                     </tr>
                     <tr>
-                        <td class="border" colspan="3">Общий уровень - про</td>
+                        <td colspan="3">Общий уровень - про</td>
                     </tr>
                 </table>
+                <div class="conteinerbutton1">
+                    <a class="darkbutton" href="feedback.html">Написать мне</a>
+                </div>
+            </div>
+        </section>
 
-
-                <a href="#">Писать мне</a>
-
-    </header>
-
-    <style>
-        .border {
-            border: 1px solid black;
-        }
-    </style>
-    </section>
     </main>
 
     <footer> <!--Подвал сайта-->
-
+        <p>Анасова Д.М.</p>
     </footer>
+
 </body>
 
 </html>
