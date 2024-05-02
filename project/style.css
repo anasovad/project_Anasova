@@ -1,24 +1,18 @@
 a.button {
     max-width: 166px;
-    /*Минимальная ширина кнопки*/
     text-align: center;
-    /*Выравнивание текста по центру*/
     display: inline-block;
-    /*Для размещения кнопок с новой строки в зависимости от ширины экрана*/
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
     text-decoration: none;
-    /*Убрать подчеркивание*/
     border-radius: 100px;
-    /*Скругление углов*/
     color: #151313;
     border: 2px solid #151313;
     font-family: "MontserratRegular";
     margin: 15px;
- 
 }
 
 body{
@@ -91,7 +85,7 @@ a.button:active {
 
 .conteinerbutt {
     position: relative;
-    top: 390px;
+    top: 370px;
     left: 700px;
 }
 
@@ -289,7 +283,7 @@ ol{
     margin-right: auto;
     margin-bottom: -20px;
     position: relative;
-    top: -70px;
+    top: -30px;
 }
 
 .containerrentangle{
@@ -585,6 +579,24 @@ img{
     border-radius: 20px;
 }
 
+.img1{
+    max-width: 53px;
+    max-height: 42px;
+    padding: 20px;
+    margin: -10px;
+}
+
+.headercontainer{
+    width: 900px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 footer{
     background-color: white;
     width: 100%;
@@ -592,6 +604,182 @@ footer{
     margin-top: 50px;
     text-align: center;
 }
+
+.container1{
+  max-width: 450px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border: 1px solid #151313;
+  border-radius: 20px;
+  font-family: "MontserratRegular";
+  font-size: 20px;
+}
+.wrapper .title{
+  height: 90px;
+  background: #151313;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 30px 30px 0px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: #151313;
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 45px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #151313;
+  border: 1px solid #151313;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper form .button input{
+    max-width: 166px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    color: #151313;
+    border: 2px solid #151313;
+    font-family: "MontserratRegular";
+    margin: 15px;
+ 
+}
+form .button input:hover{
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid #0000CB;
+    color: #0000CB;
+}
+form .button input:active{
+    background: #0000CB;
+    border-radius: 100px;
+    border: 2px solid #0000CB;
+    color: white;
+}
+form .button input:hover{
+    background-color: white;
+    border-radius: 100px;
+    border: 2px solid #0000CB;
+    color: #0000CB;
+}
+
+fieldset{
+    max-width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #151313;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #151313;
+    border: 1px solid white;
+    font-family: "MontserratRegular";
+    margin: 15px;
+}
+
+legend{
+    color: white;
+    font-family: "MontserratBold";
+}
+select{
+    font-size: 120%;
+    width: 100%;
+    color: #151313;
+}
+label{
+    color:#fff
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+.input1{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    color: #151313;
+    border: 2px solid #151313;
+    font-family: "MontserratRegular";
+    margin: 15px;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "MontserratRegular";
+}
+
+.label2{
+    width: 100%;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
 
 @font-face {
     font-family: "MontserratRegular";

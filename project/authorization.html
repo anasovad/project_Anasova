@@ -4,112 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Login Form | CodingLab</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
 </head>
 
 <body>
-    <h2>Ссылка как кнопка</h2>
+    <header> <!--Шапка сайта-->
+        <div class="headercontainer">
+            <a href="index.html"><img class="img1" src="images/_ЛОГО_1.svg" alt="Логотип"></a>
+            <div class="conteinerbutton">
+                <nav>
+                    <a class="button" href="index.html">Обо мне</a>
+                    <a class="button" href="skills.html">Навыки</a>
+                    <a class="button" href="portfolio.html">Портфолио</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-    <a href="#" class="button">Купить</a>
-    <a href="#" class="button">Купить</a>
-    <a href="#" class="button">Купить</a>
+    <main>
+        <div class="container1">
+            <div class="wrapper">
+              <div class="title"><span>Авторизация</span></div>
+              <form action="//httpbin.org/post" method="post">
+                <div class="row">
+                  <i class="fas fa-user"></i>
+                  <input type="email" placeholder="Почта" required>
+                </div>
+                <div class="row">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Пароль" required>
+                </div>
+                <div class="row button">
+                  <input type="submit" value="ВОЙТИ">
+                </div>
+              </form>
+            </div>
+          </div>
+    </main>
 
-    <h2>Форма</h2>
-
-    <form action="//httpbin.org/post" method="post">
-        <label for="text-field">Текстовое поле</label>
-        <input id="text-field" type="text" name="text-field">
-        <input type="submit">
-    </form>
-
-    <form action="//httpbin.org/post" method="post">
-        <fieldset>
-            <legend>Базовые поля</legend>
-            <p>
-                <label> Логин
-                    <input type="text" name="text-field" placeholder="Введите свой текст" required>
-                </label>
-            </p>
-
-            <p>
-                <label> Пароль
-                    <input type="password" name="password" required>
-                </label>
-            </p>
-        </fieldset>
-
-        <fieldset>
-            <legend>Поля со своим вводом</legend>
-            <p>
-                <label> Телефон
-                    <input type="tel" name="tel" required>
-                </label>
-            </p>
-
-            <p>
-                <label> Почта
-                    <input type="email" name="email" required>
-                </label>
-            </p>
-
-            <p>
-                <label> Время
-                    <input type="time" name="time" required>
-                </label>
-            </p>
-
-            <p>
-                <label> Дата
-                    <input type="date" name="date" required>
-                </label>
-            </p>
-            <p>
-                <label> Выберите колличество
-                    <select name="count"> <!--Выбрать из списка-->>
-                        <option value="1">Товар 1</option>
-                        <option value="2">Товар 2</option>
-                        <option value="3">Товар 3</option>
-                    </select>
-                </label>
-            </p>
-        </fieldset>
-
-        <fieldset>
-            <legend>Множественный выбор</legend>
-            <p>
-                <label>Простое текстовое поле
-                    <input type="text" name="text1">
-                </label>
-            </p>    
-
-            <p>
-                <label>Выберите вариант
-                    <input type="radio" name="radio">
-                </label>
-            </p>    
-
-            <p>
-                <label>
-                    <input type="radio" name="radio">
-                    Выберите вариант</label>
-            </p>
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Множественный выбор</legend>
-            <p>
-                <label><input type="checkbox" name="checkbox">1</label>
-                <label><input type="checkbox" name="checkbox">2</label>
-                <label><input type="checkbox" name="checkbox">3</label>
-                <label><input type="checkbox" name="checkbox">4</label>
-            </p>
-        </fieldset>
-        <button type="submit">Отправить форму</button>
-
-    </form>
-
+    <footer> <!--Подвал сайта-->
+        <p>Анасова Д.М.</p>
+    </footer>
 </body>
 
 </html>
