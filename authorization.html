@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form | CodingLab</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+
+<body>
+    <header> <!--Шапка сайта-->
+        <div class="headercontainer">
+            <a href="index.html"><img class="img1" src="images/_ЛОГО_1.svg" alt="Логотип"></a>
+            <div class="conteinerbutton">
+                <nav>
+                    <a class="button" href="index.html">Обо мне</a>
+                    <a class="button" href="skills.html">Навыки</a>
+                    <a class="button" href="portfolio.html">Портфолио</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container1">
+            <div class="wrapper">
+              <div class="title"><span>Авторизация</span></div>
+              <form action="//httpbin.org/post" method="post">
+                <div class="row">
+                  <i class="fas fa-user"></i>
+                  <input type="email" placeholder="Почта" required>
+                </div>
+                <div class="row">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="Пароль" required>
+                </div>
+                <div class="row button">
+                  <input type="submit" value="ВОЙТИ">
+                </div>
+              </form>
+            </div>
+          </div>
+    </main>
+
+    <footer> <!--Подвал сайта-->
+        <p>Анасова Д.М.</p>
+    </footer>
+</body>
+
+</html>

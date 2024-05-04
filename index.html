@@ -5,79 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Анасова Д.М.</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header> <!--Шапка сайта-->
-        <nav>
-            <a href="index.html">Обо мне</a>
-            <a href="skills.html">Навыки</a>
-            <a href="tech.html">Технологии</a>
-        </nav>
-
-        <h1>Анасова Диана Маратовна</h1>
-
-        <h2>Веб-дизайнер</h2>
-
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio repudiandae delectus sequi minus
-            fugiat, a magnam vero, debitis odit, dolorem reprehenderit excepturi. Nulla consequatur ex eius quae
-            deserunt voluptatibus totam voluptatem veniam error! Voluptatem cum eaque soluta eos earum, doloremque at
-            omnis veniam quod adipisci illo repellendus error nam.
-        </p>
-
-        <a href="#">Написать мне</a>
+        <div class="headercontainer">
+            <a href="index.html"><img class="img1" src="images/_ЛОГО_1.svg" alt="Логотип"></a>
+            <div class="conteinerbutton">
+                <nav>
+                    <a class="button" href="index.html">Обо мне</a>
+                    <a class="button" href="skills.html">Навыки</a>
+                    <a class="button" href="portfolio.html">Портфолио</a>
+                </nav>
+            </div>
+            <a class="button" href="authorization.html">Войти</a>
+        </div>
+        <div class="container">
+            <h1 class="lighth1">АНАСОВА ДИАНА</h1>
+            <h2 class="lighth2">портфолио</h2>
+            <div class="conteinerbutt">
+                <a class="button" href="feedback.html">Написать мне</a>
+            </div>
+        </div>
     </header>
 
     <main> <!--Основная информация-->
         <section id="about">
-            <h2>Обо мне</h2>
-
-            <img src="images/person.png" alt="Персонаж" height="200px">
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio repudiandae delectus sequi
-                minus
-                fugiat, a magnam vero, debitis odit, dolorem reprehenderit excepturi. Nulla consequatur ex eius quae
-                deserunt voluptatibus totam voluptatem veniam error! Voluptatem cum eaque soluta eos earum, doloremque
-                at
-                omnis veniam quod adipisci illo repellendus error nam.
-            </p>
+            <div class="containerrentangle">
+                <h1 class="lighth11">ОБО МНЕ</h1>
+                <p class="lightp">
+                    Приветствую, меня зовут Диана. Я графический дизайнер. Пишите мне, буду рада сотрудничеству!
+                </p>
+                <p class="lightp">
+                    Я специализируюсь на создании айдентики и дизайна сайтов. Мой опыт говорит сам за себя. При
+                    разработке дизайна, помимо эстетической красоты, я подхожу к работе комплексно и смотрю на 
+                    задачи, которые он должен выполнять, чтобы вы могли зарабатывать больше.
+                </p>
+            </div>
         </section>
 
         <section id="skills">
-            <h2>Навыки</h2>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio repudiandae delectus sequi
-                minus
-                fugiat, a magnam vero, debitis odit, dolorem reprehenderit excepturi. Nulla consequatur ex eius quae
-                deserunt voluptatibus totam voluptatem veniam error! Voluptatem cum eaque soluta eos earum, doloremque
-                at
-                omnis veniam quod adipisci illo repellendus error nam.
-            </p>
-
-            <a href="skills.html">Подробнее</a>
+            <h1>НАВЫКИ</h1>
+            <div class="containerhr">
+                <ul>
+                    <li>Графический дизайн</li>
+                    <li>Веб дизайн</li>
+                    <li>Дизайн презентаций</li>
+                    <li>Иллюстрация</li>
+                    <li>Полиграфический дизайн</li>
+                    <li>Основы HTML и CSS</li>
+                </ul>
+            </div>
+            <div class="conteinerbutton1">
+                <a class="button" href="skills.html">Подробнее</a>
+            </div>
         </section>
 
-        <section id="tech">
-            <h2>Технологии</h2>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio repudiandae delectus sequi
-                minus
-                fugiat, a magnam vero, debitis odit, dolorem reprehenderit excepturi. Nulla consequatur ex eius quae
-                deserunt voluptatibus totam voluptatem veniam error! Voluptatem cum eaque soluta eos earum, doloremque
-                at
-                omnis veniam quod adipisci illo repellendus error nam.
-            </p>
-
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-            <a href="#">Подробнее</a>
+        <section id="contact">
+            <div class="containerrentangle">
+                <h1 class="lighth11">КОНТАКТЫ</h1>
+                <p class="lightp">
+                    почта
+                </p>
+                <h3 class="lighthp3">anasovadiana@yandex.ru</h3>
+                <p class="lightp">
+                    телеграм
+                </p>
+                <h3 class="lighthp3">@anasovad</h3>
+                <div class="conteinerbutton1">
+                    <a class="darkbutton" href="feedback.html">Написать мне</a>
+                </div>
+            </div>
         </section>
     </main>
 

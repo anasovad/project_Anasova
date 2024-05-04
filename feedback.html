@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header> <!--Шапка сайта-->
+        <div class="headercontainer">
+            <a href="index.html"><img class="img1" src="images/_ЛОГО_1.svg" alt="Логотип"></a>
+            <div class="conteinerbutton">
+                <nav>
+                    <a class="button" href="index.html">Обо мне</a>
+                    <a class="button" href="skills.html">Навыки</a>
+                    <a class="button" href="portfolio.html">Портфолио</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="containerrentangle">
+            <div class="container2">
+                <form action="//httpbin.org/post" method="post">
+                    <fieldset>
+                        <legend>ФИО</legend>
+                        <label><input type="text" name="text-field" placeholder="" required></label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>ПОЧТА</legend>
+                        <label><input type="email" name="email" placeholder="" required></label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>ОТКУДА ВЫ О НАС УЗНАЛИ?</legend>
+                            <label class="label2">Реклама<input type="radio" name="radio"></label>
+                            <label class="label2">Знакомые<input type="radio" name="radio"></label>
+                            <label class="label2">Другое<input type="radio" name="radio"></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>ТИП ОБРАЩЕНИЯ</legend>
+                        <label>
+                            <select name="count">
+                                <option value="1">Жалоба</option>
+                                <option value="2">Предложение</option>
+                                <option value="3">Заказ</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>ТЕКСТ ОБРАЩЕНИЯ</legend>
+                        <label><textarea class="dd"  placeholder="Введите текст"></textarea required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>ВЛОЖЕНИЕ</legend>
+                        <label><input type="file" name="file"></label>
+                    </fieldset>
+    
+                    <div class="row button">
+                        <input class="input1" type="submit" value="Отправить">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer> <!--Подвал сайта-->
+        <p>Анасова Д.М.</p>
+    </footer>
+
+</body>
+
+</html>
