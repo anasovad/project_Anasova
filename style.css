@@ -84,9 +84,11 @@ a.button:active {
 }
 
 .conteinerbutt {
+    width: 300px;
     position: relative;
     top: 370px;
     left: 700px;
+
 }
 
 form {
@@ -760,7 +762,7 @@ input{
     color: #151313;
     border: 2px solid #151313;
     font-family: "MontserratRegular";
-    margin: 15px;
+
 }
 
 textarea{
